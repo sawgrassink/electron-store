@@ -6,42 +6,10 @@ Electron doesn't have a built-in way to persist user preferences and other data.
 
 You can use this module directly in both the main and renderer process. For use in the renderer process only, you need to call `Store.initRenderer()` in the main process, or create a new Store instance (`new Store()`) in the main process.
 
-<br>
-
----
-
-<div align="center">
-	<p>
-		<p>
-			<sup>
-				<a href="https://github.com/sponsors/sindresorhus">My open source work is supported by the community</a>
-			</sup>
-		</p>
-		<sup>Special thanks to:</sup>
-		<br>
-		<br>
-		<a href="https://standardresume.co/tech">
-			<img src="https://sindresorhus.com/assets/thanks/standard-resume-logo.svg" width="200"/>
-		</a>
-	</p>
-	<br>
-	<a href="https://keygen.sh">
-		<div>
-			<img src="https://sindresorhus.com/assets/thanks/keygen-logo.svg" width="210" alt="Keygen">
-		</div>
-		<b>A dead-simple software licensing and distribution API built for developers</b>
-	</a>
-	<br>
-</div>
-
----
-
-<br>
-
 ## Install
 
-```
-$ npm install electron-store
+```sh
+npm install electron-store
 ```
 
 *Requires Electron 11 or later.*
