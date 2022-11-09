@@ -1,7 +1,7 @@
 'use strict';
 const path = require('path');
 const {app, ipcMain, ipcRenderer, shell} = require('electron');
-const Conf = require('conf');
+const Conf = require('conf-atomically');
 
 let isInitialized = false;
 
